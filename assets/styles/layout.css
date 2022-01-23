@@ -83,6 +83,18 @@
 }
 /* menu end */
 
+/* footer start */
+.footer-line {
+    border-top: 1px solid #02577A;
+    width: 346px;
+    left: 888px; 
+    position: absolute;
+}
+
 footer {
     text-align: center;
+    color: #02577A;
+    padding-bottom: 10px;
+    padding-top: 10px;
 } 
+/* footer end */
