@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+#navbar {
+    background-color: #f7f6ff;
+    width: 106px;
+    height: 100vh;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#navbar:hover {
+    width: 206px;
+}
+
+/* logo start */
+
+.bit-logo {
+    width: 70px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    height: 40px;
+}
+
+#navbar .line {
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+.logo-holder {
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 48px;
+}
+
+
+/* logo end */
+
+/* menu start */
+
+#navbar ul {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+#menu-home,
+#menu-calendar,
+#menu-boxes,
+#menu-joystick {
+    /* display: none; */
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 20px;
+}
+
+#menu-home {
+    color: #02577A;
+}
+
+.menu-icon {
+    width: 40px;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.menu li {
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    padding: 15px;
+}
+
+.menu .li-calendar,
+.menu .li-boxes,
+.menu .li-joystick {
+    background-color: #f7f6ff;
+}
+/* menu end */
+
+footer {
+    text-align: center;
+} 
